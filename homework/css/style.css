@@ -1,0 +1,30 @@
+/* Your style goes here */
+body {
+  padding: 0;
+  background: #eee;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+
+  background: #fff;
+}
+
+.btn-empl-tab,
+.btn-empl-unit,
+.btn-salary,
+.btn-reset {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.disabled {
+  pointer-events:none; 
+  opacity:0.6;         
+}
